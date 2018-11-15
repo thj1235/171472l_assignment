@@ -19,6 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
+            android:hint="Enter the title of movie"
     />
 
     <TextView
@@ -31,6 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
+            android:hint="Enter a short description of the movie"
     />
     <TextView
             android:layout_width="wrap_content"
@@ -81,6 +83,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="date"
+            android:hint = "Enter release date"
     />
 
     <CheckBox
