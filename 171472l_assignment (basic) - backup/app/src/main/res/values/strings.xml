@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Movie_rater</string>
+    <string name = "landingpage"> You have not added a movie \n Long press to add a movie </string>
+</resources>
