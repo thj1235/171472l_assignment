@@ -15,7 +15,9 @@
     <RatingBar
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/ratingBar2" />
+            android:id="@+id/ratingBar2"
+            android:rating="-1"
+    />
 
     <TextView
             android:layout_width="wrap_content"

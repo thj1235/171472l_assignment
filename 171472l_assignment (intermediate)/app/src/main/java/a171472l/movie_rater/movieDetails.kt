@@ -1,10 +1,13 @@
 package a171472l.movie_rater
 
-open class movieDetails(givenName:String, givenDesc:String, releasedate: String){
+open class detailsMovie {
 
-    var username:String = givenName
-    var desc:String = givenDesc
+    var username:String = ""
+    var desc:String = ""
     var langChosen = ""
     var reason = ""
-    var reDate = releasedate
+    var reDate = ""
+    var reviewsStar :Float = -1F
 }
+
+var movieObj = detailsMovie()

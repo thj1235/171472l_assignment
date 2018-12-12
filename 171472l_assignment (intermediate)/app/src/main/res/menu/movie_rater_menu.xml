@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:app="http://schemas.android.com/apk/res-auto"
       xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:tools="http://schemas.android.com/tools"
-tools:context = ".MovieRater">
-
+>
         <item
                 android:id="@+id/menu_register"
                 android:title="Save"
@@ -13,4 +11,5 @@ tools:context = ".MovieRater">
                 android:id="@+id/menu_quitapp"
                 android:title="Cancel"
                 app:showAsAction="always"/>
+
 </menu>
