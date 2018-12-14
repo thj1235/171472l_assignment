@@ -92,6 +92,18 @@ class MovieRater :AppCompatActivity(){
             startActivity(page2)
 
         }
+        if(item?.itemId == R.id.clearEn){
+            name.setText("")
+            description.setText("")
+            releaseDate.setText("")
+            special.isChecked  = false
+            langEnglish.isChecked= false
+            langChinese.isChecked= false
+            langTamil.isChecked= false
+            langMalay.isChecked= false
+
+
+        }
         return super.onOptionsItemSelected(item)
     }
 

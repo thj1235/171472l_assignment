@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name" />
+
+    <EditText
+            android:id="@+id/name_ori"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Enter the title of movie"
+    />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description" />
+
+    <EditText
+            android:id="@+id/description_ori"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="Enter a short description of the movie"
+    />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Language" />
+
+    <RadioGroup
+            android:id="@+id/language_ori"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+    >
+
+        <RadioButton
+                android:id="@+id/langEnglish_ori"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "English"
+        />
+        <RadioButton
+                android:id="@+id/langChinese_ori"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "Chinese"
+        />
+        <RadioButton
+                android:id="@+id/langMalay_ori"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "Malay"
+        />
+        <RadioButton
+                android:id="@+id/langTamil_ori"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text = "Tamil"
+        />
+
+    </RadioGroup>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Release date" />
+
+    <EditText
+            android:id="@+id/releaseDate_ori"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:hint = "Enter release date"
+    />
+
+    <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/special_ori"
+            android:text="Not suitable for all audience"
+            android:onClick="show"
+    />
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/specialgroup_ori"
+            android:layout_weight="1"
+            android:visibility="invisible"
+    >
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="violence"
+                android:id="@+id/violence_ori"
+                android:layout_weight="0.5"
+        />
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:id="@+id/languageU_ori"
+                android:text="Language Used"
+        />
+    </RadioGroup>
+
+    <Button
+            android:id="@+id/btnMyButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ADD MOVIE"
+            android:onClick="addMovie"
+    />
+
+
+
+</LinearLayout>
